@@ -10,6 +10,7 @@ DFS, BFS 둘 다 연결에 우선순위가 있는 것이 아니므로
 stack, queue를 활용함
 -> need_visit 스택과 visited 큐, 두 개의 자료구조를 생성.
 > BFS : Queue 2개 
+> 
 > DFS : Stack 1개 + Queue 1개
 
 ```
