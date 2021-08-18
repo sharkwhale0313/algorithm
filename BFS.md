@@ -10,7 +10,7 @@
 > 
 > 깊이 우선 탐색 DFS : 정점의 자식들을 먼저 탐색하는 방식
 
-![im1]./image/im1.png
+![im1](./image/im1.png)
 
 BFS : A - B - C - D - G - H - I - E - F - J
 → 한 단계씩 내려가면서, 해당 노드와 같은 레벨에 있는 노드들을 먼저 순회
@@ -20,7 +20,7 @@ DFS : A - B - D - E - F - C - G - H - I - J
 
 ##### python 으로 그래프 구현
 
-![im2]./image/im2.png
+![im2](./image/im2.png)
 
 ```
 # 딕셔너리와 리스트를 통해 구현 가능
@@ -38,7 +38,7 @@ graph['I'] = ['C','J']
 graph['J'] = ['I']
 ```
 
-![im3]./image/im3.png
+![im3](./image/im3.png)
 
 need_visit queue에 제일 앞에있는 노드를 넣음
 visited queue 에 큐의 정책(FIFO)에 따라 데이터를 하나하나 꺼내서 방문
