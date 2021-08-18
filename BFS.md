@@ -1,7 +1,7 @@
 ## BFS (Breadth First Search) 너비 우선 탐색
 
 1. BFS vs DFS
-##### 대표적인 그래프 탐색 알고리즘
+### 대표적인 그래프 탐색 알고리즘
 > BFS, DFS 는 둘 다 그래프를 탐색하는 방법이다.
 > 
 > 그래프를 탐색하는 법에는 BFS, DFS 두가지 종류가 있다.
@@ -18,7 +18,7 @@ BFS : A - B - C - D - G - H - I - E - F - J
 DFS : A - B - D - E - F - C - G - H - I - J
 → 한 노드의 자식을 타고 끝까지 순회한 후에, 다시 돌아와서 다른 형제들의 자식을 타고 내려가며 순회함
 
-##### python 으로 그래프 구현
+### python 으로 그래프 구현
 
 ![im2](./image/im2.png)
 
@@ -44,7 +44,7 @@ need_visit queue에 제일 앞에있는 노드를 넣음
 visited queue 에 큐의 정책(FIFO)에 따라 데이터를 하나하나 꺼내서 방문
 visited queue에 이미 있다면 아무것도 안하고 끝남
 
-##### BFS 알고리즘 구현
+### BFS 알고리즘 구현
 > Queue 를 활용
 > > need_visit queue, visited queue : 2개의 큐를 생성해서 관리
 ```
@@ -69,7 +69,7 @@ def bfs(graph, start_node):
 ```
 bfs(graph, 'A')
 ```
-##### 시간복잡도
+### 시간복잡도
 > 일반적인 BFS 시간 복잡도
 > > - 노드 수 : V
 > > - 간선 수 : E
