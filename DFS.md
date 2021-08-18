@@ -34,8 +34,13 @@ dfs(graph,'A')
 ```
 ## 시간 복잡도
 일반적인 DFS 시간 복잡도
+
   노드 수 : V
+  
   간선 수 : E
+  
     위 코드에서 while need_visit 은 V + E 번 만큼 수행함
+    
   시간 복잡도 : O(V+E)
+  
   
